@@ -1,5 +1,3 @@
-# simplyheart-privacy-policy
-
 # Privacy Policy for Simply Heart
 
 **Effective Date:** September 14, 2026  
@@ -14,7 +12,7 @@ Simply Heart ("Simply Heart," "we," "our," or "us") is designed to help you priv
 - Simply Heart does not add, change, or delete data in Apple Health.
 - Your Apple Health data and chart contents are processed on your device and are not uploaded to us or to Firebase.
 - Simply Heart has no advertising SDK and does not use an advertising identifier.
-- Optional anonymous diagnostics are off by default and can be enabled or disabled in the App's Settings.
+- Firebase diagnostic collection is disabled in version 1.0.
 - We do not sell personal information or health data and do not use health data for advertising, marketing, profiling, or data brokerage.
 
 ## 1. Apple Health Data
@@ -36,7 +34,7 @@ You control Apple Health access. You can grant or deny access by category and ch
 
 ## 2. Information Stored on Your Device
 
-Simply Heart stores limited preferences locally on your device, such as chart appearance, onboarding state, and whether you chose to enable anonymous diagnostics. These preferences are used to remember your choices and operate the App. We do not receive them unless a specific interaction is included in optional diagnostics as described below.
+Simply Heart stores limited preferences locally on your device, such as chart appearance and onboarding state. These preferences are used to remember your choices and operate the App.
 
 Deleting the App generally removes its locally stored preferences. Apple Health records remain under your control in Apple Health and are not deleted when you delete Simply Heart.
 
@@ -46,15 +44,19 @@ When you choose to export a chart or report, Simply Heart creates the export on 
 
 You decide whether and where to share an export. If you send or save it using another app, cloud-storage provider, messaging service, or other destination, that third party's privacy policy and practices apply. Health information may be sensitive, so review the destination carefully before sharing.
 
-## 4. Optional Anonymous Diagnostics
+## 4. Diagnostics
 
-The **Share Anonymous Diagnostics** setting is off by default. If you voluntarily enable it, the App uses the following Firebase services provided by Google:
+Firebase diagnostic collection is disabled in version 1.0. The App does not initialize Firebase Analytics, Crashlytics, or Performance Monitoring for collection.
+
+If diagnostics are introduced in a future version, this policy and the App Store privacy disclosure will be updated before collection begins. Apple Health data, heart-rate values, sleep and workout details, chart contents, selected dates, and exported files will not be included in telemetry.
+
+The project may include the following Firebase services in preparation for a future release:
 
 - Firebase Analytics, to understand coarse feature usage;
 - Firebase Crashlytics, to diagnose crashes and stability problems; and
 - Firebase Performance Monitoring, to understand performance and loading problems.
 
-Depending on the service and event, diagnostic information may include:
+If enabled in a future version, diagnostic information may include:
 
 - coarse App interactions, such as opening a screen, selecting a chart range, changing chart style, or whether an operation succeeded or failed;
 - App version, device model, operating-system version, and similar technical metadata;
@@ -64,8 +66,6 @@ Depending on the service and event, diagnostic information may include:
 - coarse location inferred by the service from an IP address.
 
 We configure our own diagnostic events so they do **not** include heart-rate values, resting-heart-rate values, sleep details, workout details, chart contents, selected dates, exported files, your name, email address, or an advertising identifier. Diagnostic data is used only to maintain, troubleshoot, and improve Simply Heart. It is not used for cross-app tracking or advertising and is not linked by us to your identity.
-
-You can disable diagnostics at any time in Simply Heart's Settings. When disabled, the App turns off Firebase Analytics, Crashlytics, and Performance Monitoring collection and asks Crashlytics to delete unsent crash reports. Information already transmitted may be retained by Google in accordance with its applicable retention practices and legal obligations.
 
 For more information, see [Google's Privacy Policy](https://policies.google.com/privacy) and [Firebase Privacy and Security](https://firebase.google.com/support/privacy).
 
@@ -92,6 +92,43 @@ We do not:
 
 We do not share Apple Health data because the App does not transmit it to us.
 
-If optional diagnostics are enabled, limited diagnostic information is processed by Google as our service provider for the purposes described in this Policy. We may also disclose information if required by applicable law, legal process, or a valid governmental request, or when reasonably necessary to protect rights, safety, and security. Because Simply Heart has no user accounts and does not receive your health records, the information available to us is limited.
+Simply Heart does not send diagnostic information to Google in version 1.0. We may disclose information if required by applicable law, legal process, or a valid governmental request, or when reasonably necessary to protect rights, safety, and security. Because Simply Heart has no user accounts and does not receive your health records, the information available to us is limited.
 
 ## 8. Data Retention and Security
+
+Apple Health data remains in Apple's HealthKit store and is protected by Apple's device and HealthKit security controls. Simply Heart accesses it only when necessary to provide requested features and does not maintain a separate server copy.
+
+Locally stored App preferences remain on your device until you change them, reset them, or delete the App. We use reasonable technical and organizational safeguards, but no method of electronic storage can be guaranteed to be completely secure.
+
+## 9. Your Choices and Rights
+
+You can:
+
+- review or change Apple Health permissions in the Health app or iOS Settings;
+- choose whether to create or share an export;
+- manage or restore App Store purchases through Apple; and
+- delete Simply Heart to remove its locally stored App data.
+
+Depending on where you live, you may have additional rights regarding personal information, such as rights to access, correct, delete, restrict, or object to certain processing. You may contact us to make a request. Because we do not maintain accounts and intentionally avoid collecting identifying information, we may not be able to identify diagnostic records as belonging to you.
+
+## 10. Children's Privacy
+
+Simply Heart is not directed to children under 13, and we do not knowingly collect personal information from children under 13. Apple Health availability and family-account controls may vary by age and region. If you believe a child has provided personal information to us, please contact us.
+
+## 11. Medical Disclaimer
+
+Simply Heart is intended for general wellness and informational purposes. It is not a medical device and does not provide medical advice, diagnosis, monitoring, or treatment. Do not use the App for emergencies. If you have questions or concerns about your health or heart rate, consult a qualified healthcare professional.
+
+## 12. International Processing
+
+If diagnostics are enabled in a future version, Google may process diagnostic information in countries other than the country where you live. Those countries may have different data-protection laws. Google describes its data-transfer and protection practices in its privacy materials.
+
+## 13. Changes to This Policy
+
+We may update this Privacy Policy as Simply Heart changes or as legal requirements evolve. We will post the revised policy and update the "Last Updated" date above. If a change materially affects how the App handles information, we will provide additional notice where required.
+
+## 14. Contact Us
+
+If you have questions, privacy concerns, or requests regarding this Privacy Policy, contact us at:
+
+**builds.singh@gmail.com**
