@@ -12,7 +12,7 @@ Simply Heart ("Simply Heart," "we," "our," or "us") is designed to help you priv
 - Simply Heart does not add, change, or delete data in Apple Health.
 - Your Apple Health data and chart contents are processed on your device and are not uploaded to us or to Firebase.
 - Simply Heart has no advertising SDK and does not use an advertising identifier.
-- Firebase diagnostic collection is disabled in version 1.0.
+- Simply Heart uses privacy-preserving Firebase Analytics to understand coarse feature usage and improve the App.
 - We do not sell personal information or health data and do not use health data for advertising, marketing, profiling, or data brokerage.
 
 ## 1. Apple Health Data
@@ -44,30 +44,13 @@ When you choose to export a chart or report, Simply Heart creates the export on 
 
 You decide whether and where to share an export. If you send or save it using another app, cloud-storage provider, messaging service, or other destination, that third party's privacy policy and practices apply. Health information may be sensitive, so review the destination carefully before sharing.
 
-## 4. Diagnostics
+## 4. Analytics
 
-Firebase diagnostic collection is disabled in version 1.0. The App does not initialize Firebase Analytics, Crashlytics, or Performance Monitoring for collection.
+Simply Heart uses Firebase Analytics to understand which features are used and where the App can be improved. Analytics may record coarse interactions such as opening the dashboard or settings, selecting a metric or chart range, changing chart style, opening Watch setup, exporting successfully or unsuccessfully, and viewing or completing a purchase flow. It may also receive technical metadata such as App version, device model, operating-system version, language, a Firebase app-installation identifier, and coarse geographic information inferred from an IP address.
 
-If diagnostics are introduced in a future version, this policy and the App Store privacy disclosure will be updated before collection begins. Apple Health data, heart-rate values, sleep and workout details, chart contents, selected dates, and exported files will not be included in telemetry.
+We do **not** send heart-rate values, resting-heart-rate values, sleep or workout details, chart contents, selected dates, exported files, your name, email address, or an advertising identifier to Firebase. Analytics is used only for product measurement and improvement, not advertising, cross-app tracking, eligibility decisions, or health profiling. Simply Heart uses the Firebase Analytics Core configuration, which excludes IDFA support.
 
-The project may include the following Firebase services in preparation for a future release:
-
-- Firebase Analytics, to understand coarse feature usage;
-- Firebase Crashlytics, to diagnose crashes and stability problems; and
-- Firebase Performance Monitoring, to understand performance and loading problems.
-
-If enabled in a future version, diagnostic information may include:
-
-- coarse App interactions, such as opening a screen, selecting a chart range, changing chart style, or whether an operation succeeded or failed;
-- App version, device model, operating-system version, and similar technical metadata;
-- crash stack traces and relevant application state;
-- performance measurements;
-- a Firebase installation identifier; and
-- coarse location inferred by the service from an IP address.
-
-We configure our own diagnostic events so they do **not** include heart-rate values, resting-heart-rate values, sleep details, workout details, chart contents, selected dates, exported files, your name, email address, or an advertising identifier. Diagnostic data is used only to maintain, troubleshoot, and improve Simply Heart. It is not used for cross-app tracking or advertising and is not linked by us to your identity.
-
-For more information, see [Google's Privacy Policy](https://policies.google.com/privacy) and [Firebase Privacy and Security](https://firebase.google.com/support/privacy).
+Firebase Crashlytics and Firebase Performance Monitoring collection remain disabled. For more information, see [Google's Privacy Policy](https://policies.google.com/privacy) and [Firebase Privacy and Security](https://firebase.google.com/support/privacy).
 
 ## 5. Purchases
 
@@ -92,7 +75,7 @@ We do not:
 
 We do not share Apple Health data because the App does not transmit it to us.
 
-Simply Heart does not send diagnostic information to Google in version 1.0. We may disclose information if required by applicable law, legal process, or a valid governmental request, or when reasonably necessary to protect rights, safety, and security. Because Simply Heart has no user accounts and does not receive your health records, the information available to us is limited.
+The limited analytics described above is processed by Google as our service provider. We may also disclose information if required by applicable law, legal process, or a valid governmental request, or when reasonably necessary to protect rights, safety, and security. Because Simply Heart has no user accounts and does not receive your health records, the information available to us is limited.
 
 ## 8. Data Retention and Security
 
@@ -121,7 +104,7 @@ Simply Heart is intended for general wellness and informational purposes. It is 
 
 ## 12. International Processing
 
-If diagnostics are enabled in a future version, Google may process diagnostic information in countries other than the country where you live. Those countries may have different data-protection laws. Google describes its data-transfer and protection practices in its privacy materials.
+Google may process analytics information in countries other than the country where you live. Those countries may have different data-protection laws. Google describes its data-transfer and protection practices in its privacy materials.
 
 ## 13. Changes to This Policy
 
