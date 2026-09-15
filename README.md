@@ -3,7 +3,7 @@
 **Effective Date:** September 14, 2026  
 **Last Updated:** September 14, 2026
 
-Simply Heart ("Simply Heart," "we," "our," or "us") is designed to help you privately view heart-rate trends from Apple Health on your iPhone and Apple Watch. This Privacy Policy explains what information the Simply Heart mobile and watchOS applications (collectively, the "App") access, how that information is used, and the choices available to you.
+Simply Heart ("Simply Heart," "we," "our," or "us") is designed to help you privately view heart-rate trends from Apple Health on your iPhone. This Privacy Policy explains what information the Simply Heart mobile application (the "App") accesses, how that information is used, and the choices available to you.
 
 ## Privacy at a Glance
 
@@ -24,7 +24,7 @@ With your permission, Simply Heart reads the following categories from Apple Hea
 - sleep analysis; and
 - workouts, including their timing, so the App can identify heart-rate readings recorded during saved workouts.
 
-The App uses this information only to create the resting, sleeping, and workout heart-rate charts, summaries, averages, and trends that you request. The Apple Watch app may also read your latest heart-rate value when you open it.
+The App uses this information only to create the resting, sleeping, and workout heart-rate charts, summaries, averages, and trends that you request.
 
 Simply Heart requests **read access only**. It does not request permission to write health data and does not add, edit, or delete Apple Health records.
 
@@ -46,7 +46,7 @@ You decide whether and where to share an export. If you send or save it using an
 
 ## 4. Analytics
 
-Simply Heart uses Firebase Analytics to understand which features are used and where the App can be improved. Analytics may record coarse interactions such as opening the dashboard or settings, selecting a metric or chart range, changing chart style, opening Watch setup, exporting successfully or unsuccessfully, and viewing or completing a purchase flow. It may also receive technical metadata such as App version, device model, operating-system version, language, a Firebase app-installation identifier, and coarse geographic information inferred from an IP address.
+Simply Heart uses Firebase Analytics to understand which features are used and where the App can be improved. Analytics may record coarse interactions such as opening the dashboard or settings, selecting a metric or chart range, changing chart style, exporting successfully or unsuccessfully, and viewing or completing a purchase flow. It may also receive technical metadata such as App version, device model, operating-system version, language, a Firebase app-installation identifier, and coarse geographic information inferred from an IP address.
 
 We do **not** send heart-rate values, resting-heart-rate values, sleep or workout details, chart contents, selected dates, exported files, your name, email address, or an advertising identifier to Firebase. Analytics is used only for product measurement and improvement, not advertising, cross-app tracking, eligibility decisions, or health profiling. Simply Heart uses the Firebase Analytics Core configuration, which excludes IDFA support.
 
