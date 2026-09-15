@@ -24,7 +24,7 @@ With your permission, Simply Heart reads the following categories from Apple Hea
 - sleep analysis; and
 - workouts, including their timing, so the App can identify heart-rate readings recorded during saved workouts.
 
-The App uses this information only to create the resting, sleeping, and workout heart-rate charts, summaries, averages, and trends that you request. The Apple Watch app and watch-face complications may also read your latest heart-rate value to display it to you.
+The App uses this information only to create the resting, sleeping, and workout heart-rate charts, summaries, averages, and trends that you request. The Apple Watch app may also read your latest heart-rate value when you open it.
 
 Simply Heart requests **read access only**. It does not request permission to write health data and does not add, edit, or delete Apple Health records.
 
